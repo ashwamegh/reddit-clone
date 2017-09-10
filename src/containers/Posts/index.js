@@ -36,10 +36,10 @@ class Posts extends Component {
 
     return (
       <div className="Posts">
-        { Object.keys(posts).map(function(key) {
+        { posts && Object.keys(posts).map(function(key) {
             return (
-              <div key={key}>
-              <div>Title: { posts[key].title }</div>
+              <div className="post" key={key}>
+              <h2>Title: { posts[key].title }</h2>
               <div>Upvotes: { posts[key].upvote }</div>
               <div>Downvotes: { posts[key].downvote }</div>
               <div>
