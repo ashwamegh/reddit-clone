@@ -22,8 +22,6 @@ class App extends Component {
     let _this = this;
 
     postsRef.on("value", snapshot => {
-      console.log(snapshot.val());
-
       _this.setState({
         posts: snapshot.val(),
         loading: false
