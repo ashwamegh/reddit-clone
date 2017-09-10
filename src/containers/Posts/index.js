@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 class Posts extends Component {
   render() {
+    let {posts} = this.props;
+
     if (this.props.loading) {
       return (
         <div>
@@ -12,10 +14,10 @@ class Posts extends Component {
 
     return (
       <div className="Posts">
-        { this.props.posts.map((post) => {
+        { Object.keys(posts).map(function(key) {
             return (
-              <div key={post.title }>
-                { post.title }
+              <div key={key}>
+                { posts[key].title }
               </div>
             );
         })}
