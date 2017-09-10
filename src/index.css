@@ -1,5 +1,9 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 5% 10%;
   font-family: sans-serif;
+}
+
+.Posts .post{
+  margin: 40px;
 }
