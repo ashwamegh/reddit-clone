@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,KACE,SACA,eACA,sBAAwB,CAG1B,aACE,WAAa","file":"static/css/main.d564f8eb.css","sourcesContent":["body {\n  margin: 0;\n  padding: 5% 10%;\n  font-family: sans-serif;\n}\n\n.Posts .post{\n  margin: 40px;\n}\n\n\n\n// WEBPACK FOOTER //\n// ./src/index.css"],"sourceRoot":""}
